@@ -1,0 +1,5 @@
+servers:
+  - hostname: 'example.com'
+    user: 'deploy'
+    password: 'password'
+    port: 22

@@ -1,0 +1,22 @@
+#!/usr/bin/env ruby
+require 'thor'
+require_relative '../lib/devops_tool'
+
+class DevOpsCLI < Thor
+  desc "deploy APP_NAME", "Deploy an application"
+  def deploy(app_name)
+    DevOpsTool::Deploy.new(app_name).run
+  end
+
+  desc "monitor LOG_FILE", "Monitor a log file"
+  def monitor(log_file)
+    DevOpsTool::Monitor.new(log_file).run
+  end
+
+  desc "health_check", "Perform health checks on servers"
+  def health_check
+    DevOpsTool::HealthCheck.new.run
+  end
+end
+
+DevOpsCLI.start(ARGV)
