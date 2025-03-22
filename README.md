@@ -1,3 +1,4 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 # DevOps Automation Tool
 
 A Ruby-based CLI tool to automate DevOps tasks such as deployment, log monitoring, health checks, and server management. Built with `sshkit`, `thor`, and `slack-notifier`.
