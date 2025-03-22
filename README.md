@@ -30,7 +30,7 @@ A Ruby-based CLI tool to automate DevOps tasks such as deployment, log monitorin
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/devops-tool.git
+   git clone https://github.com/26wv/devops-tool.git
    cd devops-tool
 
 2. Install dependencies:
